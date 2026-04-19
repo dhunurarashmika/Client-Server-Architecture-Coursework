@@ -1,6 +1,6 @@
 # Smart Campus Sensor & Room Management API
 
-1. Overview
+#1. Overview
     This is a RESTful web service developed for the university's "Smart Campus" initiative. Built using Java and JAX-RS (Jersey), it provides a robust backend API to manage campus rooms, register various IoT sensors (e.g., Temperature, CO2, Occupancy), and maintain historical sensor readings. The application uses a thread-safe in-memory data store and follows strict RESTful architectural constraints including HATEOAS, standard HTTP status codes, and sub-resource locators.
 
 2. Build and Launch Instructions
