@@ -5,7 +5,7 @@ Smart Campus Sensor and Room Management API.
     It is a RESTful web service that was created as a part of the Smart Campus project at the university. Developed with an API powered by Java and JAX-RS (Jersey), it gives a strong back-end API to control campus rooms, add different IoT sensors (e.g., Temperature, CO2, Occupancy), and keep track of sensor readings. The application will be based on thread-safe in-memory data store and adhering to strict RESTful architectural requirements such as HATEOAS, standard HTTP status codes, and sub-resource locators.
 
 2. Build and Launch Instructions.
-    The minimum requirements to create and operate this project locally are Java JDK 1+, Maven, and a web server such as Apache Tomcat.
+    The minimum requirements to create and operate this project locally are Java JDK 17+, Maven, and a web server such as Apache Tomcat.
 
   Step-by-step Execution:
     1. Make a clone of the repository on your computer.
@@ -25,7 +25,8 @@ These are five API test commands that are used to test the basic functionality o
     1. API Discovery info:
     curl -X GET http://localhost:8080/smart-campus-api/
 
-    Select Room: Choose a new room.<|human|>2. Add a New Room:
+    Select Room: Choose a new room.<|human|>
+    2. Add a New Room:
     curl -X POST http://localhost:8080/smart-campus-api/api/v1/rooms.
     -H "Content-Type: application/json" \
     -d "{"id":"LIB-301", "name":"Library Quiet Study", "capacity":50}"
