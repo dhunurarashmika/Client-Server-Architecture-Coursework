@@ -1,0 +1,13 @@
+package com.smartcampus.exception;
+
+// Thrown when a sensor is in MAINTENANCE and cannot accept readings
+public class SensorUnavailableException extends RuntimeException {
+
+    public SensorUnavailableException(String message) {
+        super(message);
+    }
+
+    public SensorUnavailableException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

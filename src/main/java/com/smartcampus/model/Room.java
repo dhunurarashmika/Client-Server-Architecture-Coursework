@@ -28,4 +28,11 @@ public class Room {
 
     public List<String> getSensorIds() { return sensorIds; }
     public void setSensorIds(List<String> sensorIds) { this.sensorIds = sensorIds; }
+
+    public void addSensorId(String id) {
+        if (sensorIds == null) {
+            sensorIds = new ArrayList<>();
+        }
+        sensorIds.add(id);
+    }
 }
