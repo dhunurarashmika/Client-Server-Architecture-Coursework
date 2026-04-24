@@ -8,7 +8,7 @@ Smart Campus Sensor and Room Management API.
     The minimum requirements to create and operate this project locally are Java JDK 17+, Maven, and a web server such as Apache Tomcat.
 
   Step-by-step Execution:
-    1. Make a clone of the repository on your computer.
+    1. Make a clone of the repository on your computer.(https://github.com/dhunurarashmika/Client-Server-Architecture-Coursework.git)
     2. Select your project in your IDE (e.g., NetBeans, IntelliJ, or Eclipse).
     3. Develop the project with Maven:
    ```bash
